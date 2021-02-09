@@ -1,0 +1,3 @@
+install:
+- FILE="-Dfile=sbconnect.aar"
+- mvn install:install-file $FILE -DgroupId=com.studentbeans.sbconnect -DartifactId=sbconnect -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
