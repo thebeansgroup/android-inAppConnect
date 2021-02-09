@@ -9,10 +9,9 @@ Languages: Kotlin
 
 Minimum Android sdk version: 21
 
-### Gradle
+### Download using Gradle
 
-We highly recommend that you use our SDK with Gradle, all you need to do is make sure you have jcenter() as one of your app's repositories. 
-Note: This is still under review and subject to change.
+We highly recommend that you use our SDK with Gradle, all you need to do is make sure you have maven as one of your app's repositories. 
 ```kotlin
 repositories {
     ...
