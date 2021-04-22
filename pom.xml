@@ -15,11 +15,6 @@
     				<artifactId>lifecycle-viewmodel-ktx</artifactId>
     				<version>2.2.0</version>
 			</dependency>
-			<dependency>
-    				<groupId>androidx.fragment</groupId>
-    				<artifactId>fragment-ktx</artifactId>
-    				<version>1.2.5</version>
-			</dependency>
 		</dependencies>
     	</dependencyManagement>
 </project>
