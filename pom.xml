@@ -20,11 +20,6 @@
     				<artifactId>fragment-ktx</artifactId>
     				<version>1.2.5</version>
 			</dependency>
-			<dependency>
-    				<groupId>com.android.databinding</groupId>
-    				<artifactId>viewbinding</artifactId>
-    				<version>4.1.3</version>
-			</dependency>
 		</dependencies>
     	</dependencyManagement>
 </project>
