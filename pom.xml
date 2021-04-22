@@ -23,10 +23,14 @@
 		</dependencies>
     	</dependencyManagement>
 	<build>
-		<plugin>
-			<buildFeatures>
-				<viewBinding>true</viewBinding>
-			</buildFeatures>
-		</plugin>
+		<pluginManagement>
+            		<plugins>
+				<plugin>
+					<buildFeatures>
+						<viewBinding>true</viewBinding>
+					</buildFeatures>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 	</build>
 </project>
