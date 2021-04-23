@@ -16,29 +16,22 @@
 				<version>1.2.5</version>
 				<scope>provided</scope>
 			</dependency>
+			<dependency>
+				<groupId>androidx.lifecycle</groupId>
+				<artifactId>lifecycle-viewmodel-ktx</artifactId>
+				<version>2.2.0</version>
+				<scope>provided</scope>
+			</dependency>
 		</dependencies>
     	</dependencyManagement>
 	
 	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
-					<groupId>com.jayway.maven.plugins.android.generation2</groupId>
-					<artifactId>android-maven-plugin</artifactId>
-					<version>3.1.1</version>
-					<extensions>true</extensions>
-				</plugin>
-			</plugins>
-		</pluginManagement>
 		<plugins>
 			<plugin>
-				<groupId>com.jayway.maven.plugins.android.generation2</groupId>
+				<groupId>com.simpligility.maven.plugins</groupId>
 				<artifactId>android-maven-plugin</artifactId>
-				<configuration>
-					<sdk>
-						<platform>8</platform>
-					</sdk>
-				</configuration>
+				<version>4.3.0</version>
+				<extensions>true</extensions>
 			</plugin>
 		</plugins>
 	</build>
