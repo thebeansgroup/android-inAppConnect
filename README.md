@@ -22,7 +22,13 @@ repositories {
 Then add the library as one of your dependencies. Please replace the [latest-version] with the actual version number e.g. 1.0
 ```kotlin
 dependencies {
-    implementation 'com.github.thebeansgroup:android-inAppConnect:[latest-version]'
+    implementation ('com.github.thebeansgroup:android-inAppConnect:[latest-version]@aar'){transitive=true}
+}
+```
+For example:
+```kotlin
+dependencies {
+    implementation ('com.github.thebeansgroup:android-inAppConnect:1.0.0@aar'){transitive=true}
 }
 ```
 ## Usage
