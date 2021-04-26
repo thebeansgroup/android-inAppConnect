@@ -4,8 +4,8 @@
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.studentbeans.sbconnect</groupId>
-  <artifactId>final</artifactId>
-  <version>1.0</version>
+  <artifactId>sbconnect</artifactId>
+  <version>release</version>
   <dependencies>
     <dependency>
       <groupId>androidx.fragment</groupId>
